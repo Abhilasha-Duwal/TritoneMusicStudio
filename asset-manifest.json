@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TritoneStudio/static/css/main.623aceb1.css",
+    "main.js": "/TritoneStudio/static/js/main.16f438e7.js",
+    "static/media/tritonecover.jpg": "/TritoneStudio/static/media/tritonecover.15f967a914df03dc436d.jpg",
+    "static/media/service1.jpg": "/TritoneStudio/static/media/service1.a91de796cabccc3db2b5.jpg",
+    "static/media/service2.jpg": "/TritoneStudio/static/media/service2.b742fa38ce95a2498276.jpg",
+    "static/media/service3.jpg": "/TritoneStudio/static/media/service3.556e12eeeab1bd198f20.jpg",
+    "static/media/logo.png": "/TritoneStudio/static/media/logo.b8a008a859cd9fe583da.png",
+    "index.html": "/TritoneStudio/index.html",
+    "main.623aceb1.css.map": "/TritoneStudio/static/css/main.623aceb1.css.map",
+    "main.16f438e7.js.map": "/TritoneStudio/static/js/main.16f438e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.623aceb1.css",
+    "static/js/main.16f438e7.js"
+  ]
+}

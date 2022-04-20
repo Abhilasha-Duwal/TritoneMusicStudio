@@ -38,3 +38,13 @@
 .swiper-button-next {
     right: 10px!important;
 }
+
+@media screen and (max-width:480px) {
+    .abt-left {
+        flex: 100%;
+    }
+    
+    .abt-right {
+        flex: 100%;
+    }
+}

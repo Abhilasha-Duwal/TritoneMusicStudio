@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TritoneMusicStudio/static/css/main.623aceb1.css",
+    "main.css": "/TritoneMusicStudio/static/css/main.0dcb4573.css",
     "main.js": "/TritoneMusicStudio/static/js/main.d6d70394.js",
     "static/media/tritonecover.jpg": "/TritoneMusicStudio/static/media/tritonecover.15f967a914df03dc436d.jpg",
     "static/media/service1.jpg": "/TritoneMusicStudio/static/media/service1.a91de796cabccc3db2b5.jpg",
@@ -8,11 +8,11 @@
     "static/media/service3.jpg": "/TritoneMusicStudio/static/media/service3.556e12eeeab1bd198f20.jpg",
     "static/media/logo.png": "/TritoneMusicStudio/static/media/logo.b8a008a859cd9fe583da.png",
     "index.html": "/TritoneMusicStudio/index.html",
-    "main.623aceb1.css.map": "/TritoneMusicStudio/static/css/main.623aceb1.css.map",
+    "main.0dcb4573.css.map": "/TritoneMusicStudio/static/css/main.0dcb4573.css.map",
     "main.d6d70394.js.map": "/TritoneMusicStudio/static/js/main.d6d70394.js.map"
   },
   "entrypoints": [
-    "static/css/main.623aceb1.css",
+    "static/css/main.0dcb4573.css",
     "static/js/main.d6d70394.js"
   ]
 }

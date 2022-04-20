@@ -1,0 +1,61 @@
+.services{
+    padding:100px 50px;
+    display:flex;
+    height:500px;
+    position:relative;
+}
+.blur {
+    background:rgba(249, 102, 176, 0.27);
+    height: 400px;
+    width: 739px;
+    position: absolute;
+    z-index: 1;
+    filter: blur(80px);
+    right: 212px;
+    top: -293px;
+  }
+
+.s-left{
+    flex:40%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.s-left .s-name{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.s-button{
+    width: 112px;
+    margin-top:15px;
+}
+.cards{
+    flex:60%;
+    position: relative;
+
+}
+.cards>*{
+    position:relative;
+}
+
+@media screen and (max-width : 480px) {
+    .services{
+        padding:60px 0;
+        flex-direction: column;
+        height: 135vh;
+    }
+    .s-name{
+        gap:0;
+    }
+    .cards{
+        flex:100%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding-top:20px;
+    }    
+    .cards>*{
+        position:static;
+    }
+}

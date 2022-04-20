@@ -1,0 +1,51 @@
+:root{
+  --raddish:#f27779;
+  --red:#c14164;
+  --pink:#f77a78;
+  --grey:rgb(22, 21, 21);
+  --shadow:0px 0px 7px 2px var(--pink);
+}
+.App{
+    padding:0 80px;
+    overflow:hidden;
+    color:rgb(26, 25, 25);
+}
+.big-text{
+  font-weight:bold;
+  font-size:25px;
+  color:var(--raddish);
+}
+.bigger-text{
+  font-weight:bold;
+    font-size:40px;
+    color:var(--red);
+}
+.small-text{
+  font-weight:100;
+  font-size:14px;
+  color:var(--grey);
+  margin-top:10px;
+}
+.button{
+  border-radius:30px;
+  border:none;
+  font-size:16px;
+  color:white;
+  padding:5px 25px;
+  background:linear-gradient(180deg,var(--raddish) 16% ,var(--red) 74%);
+  box-shadow: 0px 0px 7px 2px var(--pink)
+}
+.button:hover{
+  cursor:pointer;
+  color:var(--red);
+  background:white;
+  border:1px solid var(--red);
+}
+img {
+  max-width: 100%;
+}
+@media screen and (max-width:480px) {
+  .App{
+    padding:0 10px;
+  }
+}

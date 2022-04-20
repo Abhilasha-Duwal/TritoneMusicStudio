@@ -1,0 +1,21 @@
+.works{
+    padding:50px 0;
+    display:flex;
+    height:410px;
+    flex-direction: row-reverse;    
+}
+.w-right{
+    flex:70%;
+}
+
+@media screen and (max-width:480px) {
+    .works{
+        padding:0;
+        flex-direction: column;
+        gap:20px;
+    }
+    .w-right iframe{
+        width:100%;
+        height:auto;
+    }
+}

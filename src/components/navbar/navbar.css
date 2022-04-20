@@ -1,0 +1,120 @@
+.navbar-wrapper {
+    display: flex;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ba9191;
+    color: white;
+    z-index: 10;
+}
+
+.n-left {
+    flex: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.n-brand {
+    height: 60px;
+    width: 60px;
+}
+
+.n-right {
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding-right: 80px;
+}
+.n-list {
+    flex: 95%;
+}
+.n-list>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 50px;
+}
+.n-list>ul>li svg {
+    padding-right: 10px;
+}
+.n-list>ul>li a {
+    color: white;
+    text-decoration: none;
+}
+.n-list>ul>li a:hover{
+    cursor: pointer;
+    color: var(--red)
+}
+.active{
+    color:var(--red);
+}
+.n-button {
+    flex: 5%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger svg {
+    font-size: 50px;
+}
+
+@media screen and (max-width:480px) {
+    .n-left {
+        padding-left: 10px;
+    }
+
+    .n-brand {
+        height: 50px;
+        width: 50px;
+    }
+
+    .n-list {
+        display: none;
+    }
+
+    .n-button {
+        display: none;
+    }
+
+    .n-right {
+        padding-right: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+        position:absolute;
+        z-index: 1;
+        top: 50px;
+        right: -50px;
+    }
+
+    .mobile-menu>ul {
+        flex-direction: column;
+        list-style-type: none;
+        gap: 10px;
+        background: #ba9191;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .mobile-menu>ul>li svg {
+        padding-right: 10px;
+    }
+}

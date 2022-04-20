@@ -1,0 +1,35 @@
+.gaidey{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:500px;
+}
+.gaidey span:nth-of-type(1){
+    font-size:25px;
+}
+/* slider */
+.gaidey .swiper{
+    overflow: visible!important;
+}
+.gaidey-slider{
+    margin-top: 50px;
+    width:100%;
+}
+.gaidey-slider .swiper-slide{
+    width:430px;
+}
+.gaidey img{
+    width:420px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:480px){
+    .gaidey{
+        height:300px;
+        padding-top:20px;
+    }
+    .gaidey-slider{
+        margin-top:10px;
+    }
+}

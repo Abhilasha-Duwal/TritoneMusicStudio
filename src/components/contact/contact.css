@@ -1,0 +1,53 @@
+.contact-form{
+    display:flex;
+    height:400px;
+    padding-top:50px;
+    padding-bottom:0; 
+}
+.contact-form span:nth-of-type(1){
+    color:var(--raddish);
+}
+.cform-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+.cform-right>form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.cform-right .user{
+    width:400px;
+    height:30px;
+    padding:10px;
+    outline:none;
+    border:2px solid var(--raddish);
+    border-radius: 10px;
+    font-size:16px;
+}
+textarea{
+    height: 100px!important;
+}
+
+@media screen and (max-width:480px) {
+    .contact-form{
+        flex-direction: column;
+        height:420px;
+    }
+    .contact-form .s-left{
+        margin-bottom: 50px;
+    }
+    .cform-right{
+        flex:100%;
+    }
+    .cform-right .user{
+        width: 310px;
+        height: 20px;
+    }
+    textarea{
+        height: 50px!important;
+    }
+}

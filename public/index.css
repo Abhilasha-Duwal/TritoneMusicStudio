@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Black'), local('Aeonik-Black'),
+      url('fonts/Aeonik-Black.woff2') format('woff2'),
+      url('fonts/Aeonik-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Black Italic'), local('Aeonik-BlackItalic'),
+      url('fonts/Aeonik-BlackItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Light'), local('Aeonik-Light'),
+      url('fonts/Aeonik-Light.woff2') format('woff2'),
+      url('fonts/Aeonik-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Bold'), local('Aeonik-Bold'),
+      url('fonts/Aeonik-Bold.woff2') format('woff2'),
+      url('fonts/Aeonik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Medium'), local('Aeonik-Medium'),
+      url('fonts/Aeonik-Medium.woff2') format('woff2'),
+      url('fonts/Aeonik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Bold Italic'), local('Aeonik-BoldItalic'),
+      url('fonts/Aeonik-BoldItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Light Italic'), local('Aeonik-LightItalic'),
+      url('fonts/Aeonik-LightItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Regular'), local('Aeonik-Regular'),
+      url('fonts/Aeonik-Regular.woff2') format('woff2'),
+      url('fonts/Aeonik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Regular Italic'), local('Aeonik-RegularItalic'),
+      url('fonts/Aeonik-RegularItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Thin'), local('Aeonik-Thin'),
+      url('fonts/Aeonik-Thin.woff2') format('woff2'),
+      url('fonts/Aeonik-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Medium Italic'), local('Aeonik-MediumItalic'),
+      url('fonts/Aeonik-MediumItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: local('Aeonik Thin Italic'), local('Aeonik-ThinItalic'),
+      url('fonts/Aeonik-ThinItalic.woff2') format('woff2'),
+      url('fonts/Aeonik-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+*{
+    font-family: 'Aeonik';
+    font-weight:normal;
+    font-size:20px;
+}
+body{
+    margin:0;
+    padding-top:70px;
+}

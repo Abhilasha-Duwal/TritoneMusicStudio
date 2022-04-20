@@ -1,0 +1,40 @@
+.about-wrapper {
+    padding: 50px 0;
+    display: flex;
+}
+
+.abt-left {
+    flex: 50%;
+    padding-top: 100px;
+}
+
+.abt-right {
+    flex: 50%;
+    display: flex;
+    padding-left:20px;
+}
+
+.abt-right .swiper {
+    display: flex;
+    width: 680px;
+    height: 420px;
+}
+
+.abt-right .swiper-wrapper {
+    display:flex;
+    flex: 100%;
+}
+
+.abt-right .swiper-slide {
+    width:680px;
+}
+.abt-right img{
+    width:680px;
+    height:420px;
+}
+.swiper-button-prev{
+    left: 10px!important;
+}
+.swiper-button-next {
+    right: 10px!important;
+}

@@ -15,7 +15,7 @@ const Services = () => {
     const darkMode = theme.state.darkMode;
 
     return (
-        <div className="services-wrapper">
+        <>
             <div className="services">
                 <div className="blur"></div>
                 {/* left side */}
@@ -79,7 +79,7 @@ const Services = () => {
                 </div>
             </div>
             <Experience />
-        </div>
+        </>
     );
 }
 

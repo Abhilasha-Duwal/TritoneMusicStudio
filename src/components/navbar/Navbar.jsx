@@ -38,35 +38,35 @@ const Navbar = () => {
                         }}
                     >
 
-                        <li><NavLink to="/"
+                        <li><NavLink to="/TritoneMusicStudio"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
                                 }
                             }}
                         ><FontAwesomeIcon icon={faHome} />Home</NavLink></li>
-                        <li><NavLink to="/about"
+                        <li><NavLink to="/TritoneMusicStudio/about"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
                                 }
                             }}
                         >About Us</NavLink></li>
-                        <li><NavLink to="/services"
+                        <li><NavLink to="/TritoneMusicStudio/services"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
                                 }
                             }}
                         >Services</NavLink></li>
-                        <li><NavLink to="/works"
+                        <li><NavLink to="/TritoneMusicStudio/works"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
                                 }
                             }}
                         >Works</NavLink></li>
-                        <li><NavLink to="/testimonials"
+                        <li><NavLink to="/TritoneMusicStudio/testimonials"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
@@ -75,7 +75,7 @@ const Navbar = () => {
                         >Testimonials</NavLink></li>
                     </ul>
                 </div>
-                <NavLink to="/contact"><button className="button n-button">Contact Us</button></NavLink>
+                <NavLink to="/TritoneMusicStudio/contact"><button className="button n-button">Contact Us</button></NavLink>
             </div>
         </div>
     );

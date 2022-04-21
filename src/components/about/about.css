@@ -40,11 +40,23 @@
 }
 
 @media screen and (max-width:480px) {
+    .about-wrapper{
+        padding:0;
+        flex-direction: column;
+        gap:20px;
+    }
     .abt-left {
         flex: 100%;
+        padding-top:20px;
     }
-    
     .abt-right {
         flex: 100%;
+        padding-left: 0;
+    }
+    .abt-right .swiper{
+        height:250px;
+    }
+    .abt-right .swiper-slide {
+        height:250px;
     }
 }

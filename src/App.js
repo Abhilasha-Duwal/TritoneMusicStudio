@@ -24,12 +24,12 @@ function App() {
     >
       <Navbar/>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/services" element={<Services/>} />
-          <Route path="/works" element={<Works/>} />
-          <Route path="/testimonials" element={<Testimonials/>} />
-          <Route path="/contact" element={<Contact/>} />
+          <Route exact path="/TritoneMusicStudio" element={<Home/>} />
+          <Route path="/TritoneMusicStudio/about" element={<About/>} />
+          <Route path="/TritoneMusicStudio/services" element={<Services/>} />
+          <Route path="/TritoneMusicStudio/works" element={<Works/>} />
+          <Route path="/TritoneMusicStudio/testimonials" element={<Testimonials/>} />
+          <Route path="/TritoneMusicStudio/contact" element={<Contact/>} />
         </Routes>
       <Footer/>
     </div>

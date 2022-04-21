@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes, Route, withRouter } from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
@@ -24,7 +24,7 @@ function App() {
     >
       <Navbar/>
         <Routes>
-          <Route exact path=" " element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/works" element={<Works/>} />
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default withRouter(App);
+export default App;

@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes, Route } from 'react-router-dom';
+import {Routes, Route, withRouter } from 'react-router-dom';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Works from './components/works/Works';
 import { themeContext } from './context';
 import { useContext } from 'react';
+
 
 function App() {
   const theme = useContext(themeContext);

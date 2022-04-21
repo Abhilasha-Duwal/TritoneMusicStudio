@@ -38,7 +38,7 @@ const Navbar = () => {
                         }}
                     >
 
-                        <li><NavLink to="/"
+                        <li><NavLink to=" "
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""

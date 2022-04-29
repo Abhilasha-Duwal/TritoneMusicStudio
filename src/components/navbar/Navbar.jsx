@@ -37,8 +37,7 @@ const Navbar = () => {
                             background: darkMode ? '#171616' : '',
                         }}
                     >
-
-                        <li><NavLink to="/TritoneMusicStudio"
+                        <li><NavLink exact to="/TritoneMusicStudio"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""
@@ -52,7 +51,7 @@ const Navbar = () => {
                                 }
                             }}
                         >About Us</NavLink></li>
-                        <li><NavLink to="/TritoneMusicStudio/services"
+                        <li><NavLink  to="/TritoneMusicStudio/services"
                             style={({ isActive }) => {
                                 return {
                                     color: isActive ? "var(--red)" : ""

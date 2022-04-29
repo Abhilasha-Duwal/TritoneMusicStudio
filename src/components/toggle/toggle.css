@@ -34,4 +34,5 @@
     position: absolute;
     z-index: 1;
     border-radius: 100%;
+    cursor:pointer;
 }
